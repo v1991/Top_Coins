@@ -65,7 +65,7 @@ class Graph extends Component {
                     return '<b> Name : ' + this.series.name + '</b>' +
                         '<br /><b>Market Cap :</b> $ ' + Highcharts.numberFormat(this.x, 2, '.', ',') + '<br/>' +
                         '<b>Volume :</b> $ ' + Highcharts.numberFormat(this.point.volume_24h, 2, '.', ',') + '<br>' +
-                        '<b>Price change (24h) : </b> ' + Highcharts.numberFormat(this.point.change_24, 2) + '</br>';
+                        '<b>Price change (24h) : </b> ' + Highcharts.numberFormat(this.point.change_24, 2) + '%</br>';
                 }
             },
             legend: {
